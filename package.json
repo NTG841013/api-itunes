@@ -7,7 +7,7 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "predeploy": "npm run build",
-        "deploy": "gh-pages -d build",
+        "deploy": "cd client && gh-pages -d build",
         "start": "node server.js",
         "build": "cd client && react-scripts build",
         "server": "nodemon server.js",
@@ -16,6 +16,18 @@
     },
     "eslintConfig": {
         "extends": "react-app"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
     },
     "author": "Nhlanhla Khumalo",
     "license": "ISC",
