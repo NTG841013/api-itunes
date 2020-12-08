@@ -1,7 +1,7 @@
-Welcome to my iTunes Search Website
+# Welcome to my iTunes Search Website
 
 =====Setting Up App======
-
+ 
 - In order to use the app locate the application folder,
 
 and copt it to your local machine.
@@ -35,9 +35,9 @@ open the link.
 
 button
 
-=======Heroku Link=======
+=======Github Link=======
 
-- Link - https://react-node-app-itunes.herokuapp.com
+- Link - https://ntg841013.github.io/api-itunes
 
 - copy the link above and paste it into your browser's url.
 
